@@ -21,6 +21,8 @@ const loop = setInterval(() => {
         mario.style.bottom = `${marioPosition}px`;
         mairo.style.width = '75px';
         mario.style.maringLeft = '50px';
+
+        clearInterval(loop);
     } 
 }, 10);
  
